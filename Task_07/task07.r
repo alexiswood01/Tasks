@@ -1,0 +1,6 @@
+install.packages("rinat")
+library(rinat)
+install.packages("spocc")
+library(spocc)
+occ_names(query="Polyommatus icarus")
+get_inat_obs(query="Polyommatus icarus")
